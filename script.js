@@ -1,4 +1,4 @@
-const PASSWORD = "Shreya Saradhi"; // 🔐 change this if you want
+const PASSWORD = "shreyasaradhi"; // 🔐 change this if you want
 
 const chat = document.getElementById("chat");
 const lockScreen = document.getElementById("lock-screen");
@@ -191,5 +191,6 @@ window.addEventListener("mousemove", (e) => {
     (e.clientY / window.innerHeight - 0.5) * 4
   );
 });
+
 
 createStars();
