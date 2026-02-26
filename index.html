@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For You</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 🌌 Background -->
+  <div id="bg"></div>
+
+  <!-- 🌠 Stars -->
+  <div id="stars"></div>
+
+  <!-- 🔐 Lock Screen -->
+  <div id="lock-screen">
+    <div class="lock-box">
+      <p class="lock-text">Only you would know</p>
+      <p class="lock-hint">Your future name</p>
+      <input type="password" id="password" placeholder="enter it softly" />
+      <button id="unlock">Open</button>
+      <p id="error">That’s not it</p>
+    </div>
+  </div>
+
+  <!-- 💬 Chat -->
+  <div class="chat-container hidden" id="chat"></div>
+  <div class="tap-hint hidden" id="hint">tap anywhere</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
